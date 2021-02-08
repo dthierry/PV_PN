@@ -51,6 +51,7 @@ void EMP1::GenerateKtSamples() {
         k = (k <= 1.) ? k : 1.;
         kt_.push_back(k);
     }
+    //
 }
 
 void EMP1::GenerateIrradation() {
